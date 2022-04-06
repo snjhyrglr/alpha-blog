@@ -77,3 +77,5 @@ group :production do
 end
 
 gem 'bootstrap', '~> 5.1.3'
+
+gem 'will_paginate', '~> 3.3'
