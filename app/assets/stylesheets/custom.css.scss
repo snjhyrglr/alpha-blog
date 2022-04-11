@@ -41,6 +41,14 @@ body {
   text-decoration: none;
 }
 
+.logout-btn {
+  border: none;
+}
+
+.noHover {
+  pointer-events: none;
+}
+
 /* pagination style */
 .flickr_pagination {
   text-align: center;
