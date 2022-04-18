@@ -1,4 +1,4 @@
-<h1 class="text-center mt-4">Create a new Category</h1>
+<h1 class="text-center mt-4">Edit Category name</h1>
 
     <div class="container">
         <div class="row justify-content-center">
@@ -6,6 +6,6 @@
               <%= render 'form' %>  
             </div>
         
-            <%= link_to '[ Cancel and return to categories listing ]', categories_path, class: "remove-line text-center mt-2 text-info" %>
+            <%= link_to '[ Cancel and return to category ]', category_path(@category), class: "remove-line text-center mt-2 text-info" %>
         </div>
 </div>
